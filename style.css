@@ -1,0 +1,122 @@
+/* fonts */
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/static/Inter-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/static/Inter-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/static/Inter-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+/* wrapper */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.wrapper {
+  margin: 200px auto;
+  max-width: 340px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  font-family: Inter;
+}
+
+.content-wrapper {
+  display: block;
+  margin: 0 35px;
+  text-align: center;
+}
+
+/* wrapper-content */
+
+.avatar {
+  max-width: 80px;
+  border-radius: 40px;
+  margin-top: 40px;
+}
+
+.name {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: hsl(0, 0%, 80%);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.country {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.position {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 70%);
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* links */
+
+.links-container {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-bottom: 35px;
+}
+
+.links-container li a {
+  display: block;
+  width: 100%;
+  color: hsl(0, 0%, 80%);
+  text-decoration: none;
+  margin-top: 15px;
+  padding: 12px 0;
+  background-color: hsl(0, 0%, 20%);
+
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 7px;
+  transition: background-color 0.3s ease-in, color 0.3s ease;
+}
+
+/* Hover */
+
+.links-container .github:hover {
+  background: hsl(269, 75%, 11%);
+}
+
+.links-container .frontend-mentor:hover {
+  background: hsl(81, 16%, 79%);
+  color: black;
+}
+
+.links-container .instagram:hover {
+  background-color: rgb(19, 99, 106);
+}
+
+.links-container .youtube:hover {
+  background-color: rgb(134, 14, 22);
+}
+
+.links-container .steam:hover {
+  background-color: #202833;
+}
